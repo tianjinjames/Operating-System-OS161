@@ -1,0 +1,114 @@
+sys161: System/161 release 1.14, compiled Sep 11 2012 06:05:16
+
+OS/161 base system version 1.11
+Copyright (c) 2000, 2001, 2002, 2003
+   President and Fellows of Harvard College.  All rights reserved.
+
+Hello World ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+Put-your-group-name-here's system version 0 (ASST2 #96)
+
+Cpu is MIPS r2000/r3000
+1872k physical memory available
+Device probe...
+lamebus0 (system main bus)
+emu0 at lamebus0
+ltrace0 at lamebus0
+ltimer0 at lamebus0
+hardclock on ltimer0 (100 hz)
+beep0 at ltimer0
+rtclock0 at ltimer0
+lrandom0 at lamebus0
+random0 at lrandom0
+lhd0 at lamebus0
+lhd1 at lamebus0
+lser0 at lamebus0
+con0 at lser0
+pseudorand0 (virtual)
+
+Hello World ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+Hello World ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+OS/161 kernel [? for menu]: p /testbin/os161testerprog 
+p /testbin/os161testerprog 
+Operation took 0.000213800 seconds
+OS/161 kernel [? for menu]: /testbin/os161testerprog: Starting.
+00111122222222333333333333/testbin/os161testerprog: 6-0
+: No such device
+33/testbin/os161testerprog: 6-33/testbin/os161testerprog: 6-0
+: No such device
+/testbin/os161testerprog: 6-0
+: No such device
+/testbin/os161testerprog/testbin/os161testerprog: 6-0
+: No such device
+**2**
+/testbin/os161testerprog: 6-0
+: No such device
+0
+: No such device
+/testbin/os161testerprog: 6-0
+: No such device
+: 6-0
+: No such device
+LOOP2
+**2**
+**2**
+**2**
+LOOP2
+/testbin/os161testerprog: 6-0
+: No such device
+LOOP2
+/testbin/os161testerprog: 6-0
+: No such device
+LOOP1
+LOOP1
+sys161: System/161 release 1.14, compiled Sep 11 2012 06:05:16
+
+OS/161 base system version 1.11
+Copyright (c) 2000, 2001, 2002, 2003
+   President and Fellows of Harvard College.  All rights reserved.
+
+Hello World ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+Put-your-group-name-here's system version 0 (ASST2 #96)
+
+Cpu is MIPS r2000/r3000
+1872k physical memory available
+Device probe...
+lamebus0 (system main bus)
+emu0 at lamebus0
+ltrace0 at lamebus0
+ltimer0 at lamebus0
+hardclock on ltimer0 (100 hz)
+beep0 at ltimer0
+rtclock0 at ltimer0
+lrandom0 at lamebus0
+random0 at lrandom0
+lhd0 at lamebus0
+lhd1 at lamebus0
+lser0 at lamebus0
+con0 at lser0
+pseudorand0 (virtual)
+
+Hello World ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+Hello World ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+OS/161 kernel [? for menu]: p /testbin/os161testerprog 
+p /testbin/os161testerprog 
+Operation took 0.000213800 seconds
+OS/161 kernel [? for menu]: [a] read from NULL
+[b] read from invalid address
+[c] read from kernel address
+[d] write to NULL
+[e] write to invalid address
+[f] write to code segment
+[g] write to kernel address
+[h] jump to NULL
+[i] jump to invalid address
+[j] jump to kernel address
+[k] alignment error
+[l] illegal instruction
+[m] divide by zero
+[n] mod by zero
+[o] Recurse infinitely
+[*] Run everything (in subprocesses)
+Note: [f] may not cause an exception on some platforms, in which
+case it'll appear to fail.
+Choose: a4!
+a
